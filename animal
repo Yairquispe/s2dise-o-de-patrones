@@ -1,0 +1,11 @@
+package ejemplo3;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+abstract class animal {
+    public abstract void mover();
+    
+    
+}

@@ -1,0 +1,14 @@
+package ejemplo3;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class perro extends animal{
+
+    @Override
+    public void mover() {
+        System.out.println("el perro corre en 4 patas ");
+    }
+    
+}

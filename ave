@@ -1,0 +1,16 @@
+package ejemplo3;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class ave extends animal{
+
+    @Override
+    public void mover() {
+        System.out.println("el ave vuela"); 
+    
+    }
+    
+    
+}

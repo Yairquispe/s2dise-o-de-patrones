@@ -1,0 +1,21 @@
+package ejemplo3;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class ejecutor {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        //usameos polimorfismo:animal puede ser un perro o un ave 
+        animal perro = new perro();
+        animal ave = new ave(); 
+        perro.mover();
+        ave.mover();
+    }
+    
+}
